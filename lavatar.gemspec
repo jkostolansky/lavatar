@@ -15,5 +15,7 @@ Gem::Specification.new do |spec|
   spec.files        = Dir["README.md", "LICENSE.txt", "lavatar.gemspec", "lib/lavatar/*.rb"]
   spec.require_path = "lib"
 
-  spec.add_dependency "actionpack"
+  spec.required_ruby_version = ">= 2.3.0"
+
+  spec.add_dependency "activesupport", ">= 4.2.0"
 end
