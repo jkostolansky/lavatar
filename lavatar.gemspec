@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.homepage     = "https://github.com/jkostolansky/lavatar"
   spec.license      = "MIT"
 
-  spec.files        = Dir["README.md", "LICENSE.txt", "lavatar.gemspec", "lib/lavatar/*.rb"]
+  spec.files        = Dir["README.md", "LICENSE.txt", "lavatar.gemspec", "lib/**/*.rb"]
   spec.require_path = "lib"
 
   spec.required_ruby_version = ">= 2.3.0"
