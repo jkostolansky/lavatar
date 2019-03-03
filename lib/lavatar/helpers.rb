@@ -43,7 +43,7 @@ module Lavatar
   private
 
     def key_to_color(key, saturation, lightness)
-      hue = Digest::MD5.hexdigest(key)[0..5].to_i(16).to_f/0xFFFFFF
+      hue = Digest::MD5.hexdigest(key.to_s)[0..5].to_i(16).to_f/0xFFFFFF
       hsl_to_rgb(hue, saturation, lightness)
     end
 
