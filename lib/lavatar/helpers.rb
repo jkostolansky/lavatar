@@ -31,7 +31,7 @@ module Lavatar
         fill: font_color,
         "font-size": font_size,
         "font-weight": font_weight,
-        "alignment-baseline": "central",
+        "dominant-baseline": "central",
         "text-anchor": "middle",
       }
 
