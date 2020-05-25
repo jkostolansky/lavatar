@@ -28,10 +28,10 @@ module Lavatar
       text_attrs = {
         x: "50%",
         y: "50%",
+        dy: "0.4em",
         fill: font_color,
         "font-size": font_size,
         "font-weight": font_weight,
-        "dominant-baseline": "central",
         "text-anchor": "middle",
       }
 
